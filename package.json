@@ -1,0 +1,35 @@
+{
+  "name": "dash-payment-service",
+  "version": "1.0.0",
+  "description": "Dash Payment Service",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snogcel/dash-payment-service.git"
+  },
+  "author": "Jon Kindel",
+  "main": "lib",
+  "bitcoreNode": "lib",
+  "dependencies": {
+    "async": "*",
+    "bitcore-lib-dash": "^0.13.17",
+    "body-parser": "^1.13.3",
+    "compression": "^1.6.1",
+    "lodash": "^2.4.1",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.2",
+    "should": "^8.3.1",
+    "sinon": "^1.10.3"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snogcel/dash-payment-service/issues"
+  },
+  "homepage": "https://github.com/snogcel/dash-payment-service#readme"
+}
